@@ -16,7 +16,6 @@ class QueenDirection(Enum):
     SOUTHWEST = 6
     WEST = 7
 
-
 class KnightMove(Enum):
     # eight possible knight moves
     NORTH_LEFT = 0  # diff == -15
