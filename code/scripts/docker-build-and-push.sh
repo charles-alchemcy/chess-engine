@@ -8,6 +8,7 @@ if [ $? -ne 0 ]; then
 	exit 1
 fi
 
+
 echo -e "\n========== Server image built"
 echo -e "==========Building client image\n"
 docker build -f Dockerfile.client -t ghcr.io/zjeffer/chess-rl_selfplay-client .
