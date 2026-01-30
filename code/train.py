@@ -16,6 +16,7 @@ import utils
 from tqdm import tqdm
 from datetime import datetime
 
+
 class Trainer:
     def __init__(self, model: Model):
         self.model = model
