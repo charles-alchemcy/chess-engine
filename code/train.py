@@ -16,10 +16,12 @@ import utils
 from tqdm import tqdm
 from datetime import datetime
 
+
 class Trainer:
     def __init__(self, model: Model):
         self.model = model
         self.batch_size = config.BATCH_SIZE
+
 
     def sample_batch(self, data):
         if self.batch_size > len(data):
