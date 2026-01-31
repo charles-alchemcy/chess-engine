@@ -28,7 +28,6 @@ class Trainer:
         else:
             np.random.shuffle(data)
             return data[:self.batch_size]
-
     def split_Xy(self, data) -> Tuple[np.ndarray, np.ndarray]:
         # board to input format (19x8x8)
         X = np.array([ChessEnv.state_to_input(i[0])[0] for i in data])
