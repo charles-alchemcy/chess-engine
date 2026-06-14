@@ -125,4 +125,3 @@ if __name__ == "__main__":
 
     # test.test_position_outputs("1k6/1pp5/p3B2p/3Pq3/2P1p3/PP3r2/4Q3/5RK1 b - - 0 36", 400)
     test_predict_vs_predict_batch()
-
